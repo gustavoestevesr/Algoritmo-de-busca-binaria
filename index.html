@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LIVE AKONI</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>       
+        
+        <div id="configuracao">
+            <label>Digite o valor máximo: </label>
+            <input type="number" name="" id="valor_maximo">
+            <button onclick="comecar()">Descobrir!</button>
+        </div>
+
+        <div id="telaChute">
+            <h1 id="h1_chute"></h1>
+            <h2 id="h2_qtd"></h2>
+            <br>
+            <button onclick="menor()">Menor</button>
+            <button onclick="acertou()">Acertou!</button>
+            <button onclick="maior()">Maior</button> 
+
+            <!-- <button onclick="chutarNumeroBruto()">Não</button> !-->
+            <!-- <button onclick="chutarNumeroAleatorio()">Não</button> !-->
+            <!-- <button onclick="chutarNumeroBruto()">Não</button> !-->
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
